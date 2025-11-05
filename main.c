@@ -2,9 +2,7 @@
 #include <string.h>
 #include "funciones.h"
 
-// ---- Prototipos ----
-
-
+// main.c
 // ---- Funcion principal ----
 int main() {
     char nombres[10][50];
