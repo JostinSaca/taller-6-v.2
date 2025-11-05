@@ -11,7 +11,7 @@ int main() {
     float precios[10];
     int cantidad = 0, opcion;
 
-    ingresarDatos(nombres, precios, &cantidad);
+    cantidad = ingresarDatos(nombres, precios);
 
     do {
         printf("\n--- MENU ---\n");
