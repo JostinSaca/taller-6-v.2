@@ -1,4 +1,4 @@
-int ingresarDatos(char nombres[][50], float precios[]);
+int ingresarDatos(char nombres[][50], float precios[], int cantidad);
 void mostrarProductos(char nombres[][50], float precios[], int cantidad);
 void calcularTotal(float precios[], int cantidad);
 void encontrarExtremos(char nombres[][50], float precios[], int cantidad);
