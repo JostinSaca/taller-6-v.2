@@ -100,13 +100,16 @@ void buscarProducto(char nombres[][50], float precios[], int cantidad) {
 // Leer enteros validos
 int leerEnteroValido() {
     int numero;
-    while (1) {
-        if (scanf("%d", &numero) == 1) {
+    while (1)
+    {
+        if (scanf("%d", &numero) ==1 && numero>0 )
+        {
             while (getchar() != '\n');
             return numero;
-        } else {
-            printf("Entrada invalida. Ingrese solo numeros: ");
-            while (getchar() != '\n');
-        }
-    }
+            
+        } else{
+            printf("Error, dato invalido. Ingrese numeros mayor a 0: ");
+            while(getchar() != '\n');
+        }  
+    }  
 }
